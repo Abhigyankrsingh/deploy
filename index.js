@@ -9,6 +9,11 @@ app.get('/', (req,res)=>{
 })
 
 
+app.get('/twitter', (req,res)=>{
+  res.send('Abhigyan')
+})
+
+
 app.listen(port,()=>{
     console.log(`app listeing at ${port}`)
 })
